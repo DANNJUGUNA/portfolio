@@ -2,7 +2,7 @@ import React from 'react';
 import dan from "../assets/dan.jpeg";
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {AiFillTwitterCircle} from 'react-icons/ai'
+import {AiFillTwitterCircle, AiOutlineDownload} from 'react-icons/ai'
 import CV from "../assets/dan resume.docx"
 const Home = () => {
  
@@ -20,8 +20,8 @@ const Home = () => {
        </p>
        <img className=' w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] rounded-full' src={dan} alt="dan" />
        <div className=' mt-3'>
-       <a href={CV}download className='text-white rounded-full p-2 border text-lg font-semibold border-solid border-white hover:bg-white hover:text-black ml-14 lg:text-white lg:text-2xl lg:border-white '>Download CV</a>
-       <a href="#contacts" className='text-white rounded-full p-2 border text-lg font-semibold border-solid border-white hover:bg-white hover:text-black lg:text-white lg:text-2xl lg:border-white ml-6' >Lets Talk</a>
+       <a href={CV}download className='text-black rounded-full p-2 border text-lg font-semibold border-solid border-white hover:bg-white hover:text-black ml-14 lg:text-white lg:text-2xl lg:border-white '>Download CV</a>
+       <a href="#contacts" className='text-black rounded-full p-2 border text-lg font-semibold border-solid border-white hover:bg-white hover:text-black lg:text-white lg:text-2xl lg:border-white ml-6' >Lets Talk</a>
        </div>
       
     </div>
