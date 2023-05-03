@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className="bg-[#30126b]">
+    <Disclosure as="nav" className="bg-[#03058f]">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -42,7 +42,7 @@ export default function NavBar() {
                         href={item.href}
                         className={classNames(
                           item.current ? 'bg-white text-black' : 'text-white hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-lg font-medium'
+                          'px-6 py-2 rounded-full text-lg font-semibold'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -61,7 +61,7 @@ export default function NavBar() {
                     <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="sr-only">Open user menu</span>
                       <img
-                        className="h-20 w-20 rounded-full border-white"
+                        className=" h-14 w-14 rounded-full border-white"
                         src={dan}
                         alt=""
                       />
