@@ -7,7 +7,7 @@ import CV from "../assets/dan resume.docx"
 const Home = () => {
  
   return (
-    <div className=' flex flex-wrap'>
+    <div className='flex-wrap flex'>
     <div className=' flex-wrap items-center justify-center flex flex-col mt-0 w-[97%]'>
        <p className=' pt-14 mb-6 text-2xl font-semibold text-black lg:text-white'>
         Hi, I'm
@@ -25,7 +25,7 @@ const Home = () => {
        </div>
       
     </div>
-     <div className='pt-5 w-[3%]'>
+     <div className='pt-5 w-[1%] mr-[3%] ml-[-5%]'>
      <a href="https://www.linkedin.com/in/dan-njuguna-7a48a9235/" className='text-white' target="_blank"> <BsLinkedin size={30} /> </a>
       <a href="https://github.com/DANNJUGUNA" className='text-white' target="_blank"> <FaGithub  size={30}/> </a>
       <a href="" target="_blank" className='text-white'>  <AiFillTwitterCircle size={30} /> </a>
