@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className=' flex-wrap mt-3'>
       <div className='flex items-center justify-center text-white text-lg mt-11'>
-        <h1>ABOUT ME</h1>
+        <h1 className=' underline font-bold text-2xl'>ABOUT ME</h1>
      
       </div>
       <div className=' flex justify-center text-black gap-5 text-lg font-semibold py-4'>
       <article className='bg-white/50 border border-white rounded-lg border-solid hover:text-white hover:bg-inherit flex items-center flex-col px-6 py-3'>
-            <FaAward size={30} /> 
+            <FaAward size={40} className="text-white"/> 
               <h5 className='pt-4'>Experience</h5>
               <small>Entry level</small>
             </article>
@@ -20,7 +20,7 @@ const About = () => {
               <small>3+ years working</small>
             </article> */}
             <article className='bg-white/50 border border-white rounded-lg border-solid hover:text-white hover:bg-inherit flex items-center flex-col px-6 py-3'>
-            <VscFolderLibrary size={30}/> 
+            <VscFolderLibrary size={40} className="text-white"/> 
               <h5 className='pt-4'>Projects</h5>
               <small>2 Completed </small>
             </article>
