@@ -44,7 +44,7 @@ function SocialLinks() {
                 Mail <HiOutlineMail size={30}/>
                 </>
             ),
-            href: "mailto: johnsonvundy2@gmail.com",
+            href: "mailto: ndan30071@gmail.com",
             
         },
         {
@@ -66,11 +66,11 @@ function SocialLinks() {
     <ul>
         {links.map(({id, child, style,href, download }) => (
 
-        <li key={id} className="flex justify-between items-center w-40 h-14 px-4 bg-gray-500  
+        <li key={id} className="flex justify-between items-center w-40 h-14 px-4 bg-gradient-to-b from-purple-500 to-white 
         ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300" 
         >
             <a href={href}
-            className="flex justify-between items-center w-full text-white"
+            className="flex justify-between items-center w-full text-black text-2xl"
             download={download}
             target="_blank"
             rel="noreferrer"
