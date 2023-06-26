@@ -14,7 +14,7 @@ function SocialLinks() {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: "https://www.linkedin.com/in/john-vundi-476a3a261",
+            href: "linkedin.com/in/dannjuguna",
             style:"rounded-tr-md"
         },
         {
@@ -24,7 +24,7 @@ function SocialLinks() {
                 GitHub <FaGithub size={30}/>
                 </>
             ),
-            href: "https://github.com/Adisia2",
+            href: "https://github.com/DANNJUGUNA",
             
         },
         {

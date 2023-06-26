@@ -28,10 +28,8 @@ function NavBar() {
     ];
 
   return (
-    <div className='flex justify-between items-center w-full h-[15vh] text-white fixed px-4 bg-[#052457]'>
-     <div>
-         <h1 className='text-5xl al-2'>Vundi</h1>
-     </div>
+    <div className='flex justify-center items-center w-full h-[15vh] text-white fixed px-9 bg-[#052457]'>
+    
      <ul className='hidden md:flex'>
         {links.map(({id, link}) => (
 
