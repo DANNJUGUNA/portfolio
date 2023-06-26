@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from "../assets/heroImage.png"
+// import heroImage from "../assets/heroImage.png"
 import {RiArrowRightSLine} from "react-icons/ri";
 import { Link } from 'react-scroll';
 
@@ -24,7 +24,7 @@ function Home() {
             </div>
         </div>
         <div>
-            <img src={heroImage} alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full"/>
+            {/* <img src={heroImage} alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full"/> */}
         </div>
       </div>
 
