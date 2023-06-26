@@ -28,7 +28,7 @@ function NavBar() {
     ];
 
   return (
-    <div className='flex justify-between items-center w-full h-20 text-white fixed px-4 bg-black'>
+    <div className='flex justify-between items-center w-full h-[15vh] text-white fixed px-4 bg-[#052457]'>
      <div>
          <h1 className='text-5xl al-2'>Vundi</h1>
      </div>

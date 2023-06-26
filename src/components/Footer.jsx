@@ -7,7 +7,7 @@ import {AiFillTwitterCircle} from 'react-icons/ai'
 
 function Footer() {
   return (
-    <footer className='bg-[#03058f]'>
+    <footer className='bg-[#052457] mt-0'>
       <a href="" className="footer__logo">DAN NJUGUNA</a>
 
       <ul className="permalinks">
