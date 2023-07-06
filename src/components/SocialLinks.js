@@ -14,7 +14,7 @@ function SocialLinks() {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href: "linkedin.com/in/dannjuguna",
+            href: "https://www.linkedin.com/in/dannjuguna/",
             style:"rounded-tr-md"
         },
         {
@@ -34,7 +34,7 @@ function SocialLinks() {
                 Twitter <FaTwitter size={30}/>
                 </>
             ),
-            href: "https://twitter.com/JonVundi?t=C7cEpID8S-KD9vl17HvICg&s=09",
+            href: "",
             
         },
         {
