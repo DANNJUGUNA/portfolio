@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-
+import resume from '../assets/dan resume.docx';
 
 function SocialLinks() {
 
@@ -34,7 +34,7 @@ function SocialLinks() {
                 Twitter <FaTwitter size={30}/>
                 </>
             ),
-            href: "",
+            href: "https://twitter.com/The_codewizard",
             
         },
         {
@@ -54,7 +54,7 @@ function SocialLinks() {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: "/Resume.pdf",
+            href: {resume},
             style:"rounded-br-md",
             download:true,
             
