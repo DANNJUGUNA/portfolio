@@ -1,6 +1,7 @@
 
 import React from 'react'
-// import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg"
+ import ireporter from "../assets/Ireporter.png"
+ import food from "../assets/food.png"
 // import barberShop from "../assets/portfolio/barberShop .jpg"
 // import navbar from "../assets/portfolio/navbar.jpg"
 // import botBattlr from "../assets/portfolio/bottBattlr2 .jpg"
@@ -10,34 +11,14 @@ function Portfolio() {
     const portfolios = [
         {
             id: 1,
-            // src: arrayDestruct,
-            href:"https://github.com/Adisia2/react-hooks-component-props-mini-project"
+             src: ireporter,
+            href:"https://github.com/DANNJUGUNA/ireport"
         },
         {
             id: 2,
-            // src: barberShop,
-            href:"https://github.com/Adisia2/barber-shop"
-        },
-        {
-            id: 3,
-            // src: navbar,
-            href:"https://github.com/Adisia2/react-hooks-react-router-programmatic-navigation"
-        },
-        {
-            id: 4,
-            // src: botBattlr,
-            href:"https://github.com/Adisia2/code-challenge-bot-battlr"
-        },
-        {
-            id: 5,
-            // src: reactSmooth,
-            href:"https://github.com/Adisia2/react-hooks-react-router-code-along"
-        },
-        {
-            id: 6,
-            // src: ramenRater,
-            href:"https://github.com/Adisia2/phase-1-mock-cc-ramen-rater"
-        },
+             src: food,
+            href:"https://github.com/DANNJUGUNA/food-website"
+        }
     ]
 
   return (
