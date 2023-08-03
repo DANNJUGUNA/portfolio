@@ -17,7 +17,7 @@ function Portfolio() {
         {
             id: 2,
              src: food,
-            href:"https://github.com/DANNJUGUNA/food-website"
+            href:"https://visionary-haupia-d2070d.netlify.app/"
         }
     ]
 
