@@ -54,7 +54,7 @@ function SocialLinks() {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: {resume},
+            href:'/cv_Dan_Njuguna.pdf',
             style:"rounded-br-md",
             download:true,
             
