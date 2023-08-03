@@ -12,7 +12,7 @@ function Home() {
             I'm a Full Stack Developer
          </h2>
             <p className="text-gray-400 py-4 max-w-md">
-            Self-driven and knowledgeable Information Communication Technology student with demonstrated experience in providing technical and customer service support. I am reliable, hard-working with strong attention to detail, and eager to learn about new technologies and business issues. I can work well both on my initiative and as a part of a team.
+            I am at my entry level in software engineering field. I am reliable, hard-working with strong attention to detail, and eager to learn about new technologies and business issues. I can work well both on my initiative and as a part of a team.
             </p>
             <div>
                 <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
