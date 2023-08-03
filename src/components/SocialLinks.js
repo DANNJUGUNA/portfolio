@@ -5,7 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import cv from '../assets/cv_Dan_Njuguna.pdf';
 
 function SocialLinks() {
-
+ console.log(cv)
     const links = [
         {
             id: 1,
