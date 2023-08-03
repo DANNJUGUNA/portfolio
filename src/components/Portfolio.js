@@ -12,12 +12,14 @@ function Portfolio() {
         {
             id: 1,
              src: ireporter,
-            href:"https://ireport-eight.vercel.app/"
+            href:"https://ireport-eight.vercel.app/",
+            desc:"iReporter enables any/every citizen to bring any form of corruption to the notice of appropriate authorities and the general public. Users can also report on things that needs government intervention"
         },
         {
             id: 2,
              src: food,
-            href:"https://visionary-haupia-d2070d.netlify.app/"
+            href:"https://visionary-haupia-d2070d.netlify.app/",
+            desc:""
         }
     ]
 
@@ -33,11 +35,12 @@ function Portfolio() {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 p-12 sm:px-0">
         {
-           portfolios.map(({id, src, href })=>(
+           portfolios.map(({id, src, href,desc })=>(
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
             <img src={src}
              alt=""
              className="rounde-md duration-200 hover:scale-105"/>
+             
             <div className="flex items-center justify-center">
             <a   href={href}
             className="flex justify-center items-center w-full text-white"
