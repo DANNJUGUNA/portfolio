@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import resume from '../assets/cv_Dan_Njuguna.pdf';
+import cv from '../assets/cv_Dan_Njuguna.pdf';
 
 function SocialLinks() {
 
@@ -54,7 +54,7 @@ function SocialLinks() {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href:'/cv_Dan_Njuguna.pdf',
+            href:{cv},
             style:"rounded-br-md",
             download:true,
             
