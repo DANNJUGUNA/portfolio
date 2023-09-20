@@ -2,6 +2,7 @@
 import React from 'react'
  import ireporter from "../assets/Ireporter.png"
  import food from "../assets/food.png"
+ import movie from "../assets/movie.png";
 // import barberShop from "../assets/portfolio/barberShop .jpg"
 // import navbar from "../assets/portfolio/navbar.jpg"
 // import botBattlr from "../assets/portfolio/bottBattlr2 .jpg"
@@ -18,6 +19,12 @@ function Portfolio() {
         {
             id: 2,
              src: food,
+            href:"https://visionary-haupia-d2070d.netlify.app/",
+            desc:""
+        },
+        {
+            id: 3,
+             src: movie,
             href:"https://visionary-haupia-d2070d.netlify.app/",
             desc:""
         }
